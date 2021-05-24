@@ -1,0 +1,295 @@
+
+
+***************************************************
+
+l =  lev_all****************************
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.407
+Model:                            OLS   Adj. R-squared:                  0.403
+Method:                 Least Squares   F-statistic:                     11.44
+Date:                Mon, 24 May 2021   Prob (F-statistic):           0.000926
+Time:                        14:59:48   Log-Likelihood:                 273.83
+No. Observations:                 146   AIC:                            -543.7
+Df Residuals:                     144   BIC:                            -537.7
+Df Model:                           1                                         
+Covariance Type:                  HC0                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0106      0.003      3.392      0.001       0.004       0.017
+0              0.7279      0.215      3.382      0.001       0.306       1.150
+==============================================================================
+Omnibus:                      198.453   Durbin-Watson:                   0.846
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             7743.012
+Skew:                           5.563   Prob(JB):                         0.00
+Kurtosis:                      36.898   Cond. No.                         23.7
+==============================================================================
+
+Warnings:
+[1] Standard Errors are heteroscedasticity robust (HC0)
+
+
+***********************1-Factor Model, Reg on  Capital =  lev_other****************************
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.023
+Model:                            OLS   Adj. R-squared:                  0.016
+Method:                 Least Squares   F-statistic:                   0.06233
+Date:                Mon, 24 May 2021   Prob (F-statistic):              0.803
+Time:                        14:59:49   Log-Likelihood:                 237.37
+No. Observations:                 146   AIC:                            -470.7
+Df Residuals:                     144   BIC:                            -464.8
+Df Model:                           1                                         
+Covariance Type:                  HC0                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0112      0.005      2.260      0.024       0.001       0.021
+0              0.2291      0.918      0.250      0.803      -1.569       2.028
+==============================================================================
+Omnibus:                      226.367   Durbin-Watson:                   1.055
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            15053.981
+Skew:                           6.735   Prob(JB):                         0.00
+Kurtosis:                      50.887   Cond. No.                         31.3
+==============================================================================
+
+Warnings:
+[1] Standard Errors are heteroscedasticity robust (HC0)
+
+
+***********************1-Factor Model, Reg on  Capital =  lev_bank****************************
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.471
+Model:                            OLS   Adj. R-squared:                  0.467
+Method:                 Least Squares   F-statistic:                     8.898
+Date:                Mon, 24 May 2021   Prob (F-statistic):            0.00335
+Time:                        14:59:50   Log-Likelihood:                 282.16
+No. Observations:                 146   AIC:                            -560.3
+Df Residuals:                     144   BIC:                            -554.3
+Df Model:                           1                                         
+Covariance Type:                  HC0                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0132      0.003      4.553      0.000       0.008       0.019
+0              0.9990      0.335      2.983      0.003       0.343       1.655
+==============================================================================
+Omnibus:                      171.258   Durbin-Watson:                   1.039
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             3469.148
+Skew:                           4.663   Prob(JB):                         0.00
+Kurtosis:                      24.984   Cond. No.                         30.2
+==============================================================================
+
+Warnings:
+[1] Standard Errors are heteroscedasticity robust (HC0)
+
+
+***********************1-Factor Model, Reg on  Capital =  lev_bankall****************************
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.500
+Model:                            OLS   Adj. R-squared:                  0.497
+Method:                 Least Squares   F-statistic:                     13.65
+Date:                Mon, 24 May 2021   Prob (F-statistic):           0.000312
+Time:                        14:59:51   Log-Likelihood:                 286.34
+No. Observations:                 146   AIC:                            -568.7
+Df Residuals:                     144   BIC:                            -562.7
+Df Model:                           1                                         
+Covariance Type:                  HC0                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0125      0.003      4.437      0.000       0.007       0.018
+0              0.9063      0.245      3.695      0.000       0.426       1.387
+==============================================================================
+Omnibus:                      176.189   Durbin-Watson:                   1.012
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             3999.142
+Skew:                           4.819   Prob(JB):                         0.00
+Kurtosis:                      26.759   Cond. No.                         26.6
+==============================================================================
+
+Warnings:
+[1] Standard Errors are heteroscedasticity robust (HC0)
+
+
+***********************1-Factor Model, Reg on  Capital =  MCPTL_bank****************************
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.037
+Model:                            OLS   Adj. R-squared:                  0.031
+Method:                 Least Squares   F-statistic:                    0.2826
+Date:                Mon, 24 May 2021   Prob (F-statistic):              0.596
+Time:                        14:59:53   Log-Likelihood:                 238.44
+No. Observations:                 146   AIC:                            -472.9
+Df Residuals:                     144   BIC:                            -466.9
+Df Model:                           1                                         
+Covariance Type:                  HC0                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0133      0.004      3.215      0.001       0.005       0.021
+0             -0.1178      0.222     -0.532      0.595      -0.552       0.316
+==============================================================================
+Omnibus:                      250.589   Durbin-Watson:                   1.146
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            30704.042
+Skew:                           7.795   Prob(JB):                         0.00
+Kurtosis:                      72.312   Cond. No.                         12.7
+==============================================================================
+
+Warnings:
+[1] Standard Errors are heteroscedasticity robust (HC0)
+
+
+***********************1-Factor Model, Reg on  Capital =  MCPTL_core_bank****************************
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.036
+Model:                            OLS   Adj. R-squared:                  0.030
+Method:                 Least Squares   F-statistic:                    0.2737
+Date:                Mon, 24 May 2021   Prob (F-statistic):              0.602
+Time:                        14:59:54   Log-Likelihood:                 238.37
+No. Observations:                 146   AIC:                            -472.7
+Df Residuals:                     144   BIC:                            -466.8
+Df Model:                           1                                         
+Covariance Type:                  HC0                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0133      0.004      3.195      0.001       0.005       0.021
+0             -0.1158      0.221     -0.523      0.601      -0.550       0.318
+==============================================================================
+Omnibus:                      250.185   Durbin-Watson:                   1.143
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            30396.878
+Skew:                           7.775   Prob(JB):                         0.00
+Kurtosis:                      71.956   Cond. No.                         12.6
+==============================================================================
+
+Warnings:
+[1] Standard Errors are heteroscedasticity robust (HC0)
+
+
+***********************1-Factor Model, Reg on  Capital =  MCPTL_securities****************************
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.192
+Model:                            OLS   Adj. R-squared:                  0.186
+Method:                 Least Squares   F-statistic:                     1.191
+Date:                Mon, 24 May 2021   Prob (F-statistic):              0.277
+Time:                        14:59:55   Log-Likelihood:                 251.23
+No. Observations:                 146   AIC:                            -498.5
+Df Residuals:                     144   BIC:                            -492.5
+Df Model:                           1                                         
+Covariance Type:                  HC0                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0062      0.007      0.938      0.348      -0.007       0.019
+0              0.2589      0.237      1.091      0.275      -0.206       0.724
+==============================================================================
+Omnibus:                      229.439   Durbin-Watson:                   1.216
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            17000.250
+Skew:                           6.841   Prob(JB):                         0.00
+Kurtosis:                      54.062   Cond. No.                         12.3
+==============================================================================
+
+Warnings:
+[1] Standard Errors are heteroscedasticity robust (HC0)
+
+
+***********************1-Factor Model, Reg on  Capital =  MCPTL_core_securities****************************
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.166
+Model:                            OLS   Adj. R-squared:                  0.161
+Method:                 Least Squares   F-statistic:                    0.9120
+Date:                Mon, 24 May 2021   Prob (F-statistic):              0.341
+Time:                        14:59:56   Log-Likelihood:                 248.95
+No. Observations:                 146   AIC:                            -493.9
+Df Residuals:                     144   BIC:                            -487.9
+Df Model:                           1                                         
+Covariance Type:                  HC0                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0067      0.007      0.980      0.327      -0.007       0.020
+0              0.2565      0.269      0.955      0.340      -0.270       0.783
+==============================================================================
+Omnibus:                      228.722   Durbin-Watson:                   1.178
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            16539.094
+Skew:                           6.815   Prob(JB):                         0.00
+Kurtosis:                      53.328   Cond. No.                         13.1
+==============================================================================
+
+Warnings:
+[1] Standard Errors are heteroscedasticity robust (HC0)
+
+
+***********************1-Factor Model, Reg on  Mkt =  000906.SH****************************
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.051
+Model:                            OLS   Adj. R-squared:                  0.044
+Method:                 Least Squares   F-statistic:                    0.2238
+Date:                Mon, 24 May 2021   Prob (F-statistic):              0.637
+Time:                        14:59:58   Log-Likelihood:                 239.49
+No. Observations:                 146   AIC:                            -475.0
+Df Residuals:                     144   BIC:                            -469.0
+Df Model:                           1                                         
+Covariance Type:                  HC0                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0086      0.008      1.081      0.280      -0.007       0.024
+0              0.0087      0.018      0.473      0.636      -0.027       0.045
+==============================================================================
+Omnibus:                      227.036   Durbin-Watson:                   1.204
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            15108.760
+Skew:                           6.774   Prob(JB):                         0.00
+Kurtosis:                      50.959   Cond. No.                         1.51
+==============================================================================
+
+Warnings:
+[1] Standard Errors are heteroscedasticity robust (HC0)
+
+
+***********************2-Factor Model, Reg on  Capital =  lev_all, Market = 000906.SH****************************
+
+
+
+***********************2-Factor Model, Reg on  Capital =  lev_other, Market = 000906.SH****************************
+
+
+
+***********************2-Factor Model, Reg on  Capital =  lev_bank, Market = 000906.SH****************************
+
+
+
+***********************2-Factor Model, Reg on  Capital =  lev_bankall, Market = 000906.SH****************************
+
+
+
+***********************2-Factor Model, Reg on  Capital =  MCPTL_bank, Market = 000906.SH****************************
+
+
+
+***********************2-Factor Model, Reg on  Capital =  MCPTL_core_bank, Market = 000906.SH****************************
+
+
+
+***********************2-Factor Model, Reg on  Capital =  MCPTL_securities, Market = 000906.SH****************************
+
+
+
+***********************2-Factor Model, Reg on  Capital =  MCPTL_core_securities, Market = 000906.SH****************************
+
